@@ -1,8 +1,8 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
- name: back-dev-deployment
- namespace: back-dev
+ name: back-deployment
+ namespace: msh-dev
 spec:
  selector:
    matchLabels:
